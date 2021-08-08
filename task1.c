@@ -36,5 +36,6 @@ int main()
     clock_t end = clock();
     secs = (double)(end-begin) / CLOCKS_PER_SEC;
     printf("\nTime taken = %f\n", secs);
+    
     return 0;
 }
